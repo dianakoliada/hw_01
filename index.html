@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS: 1st step</title>
 </head>
 <body>
     <p>
         IT School 'Hillel'
     </p>
     <script>
-        alert("Look!");
+        alert("Smile!");
         let someNum = 123456; //number
         let someText = 'IT School "Hillel"'; //string
         let myVar = false; //boolean
         console.log(typeof someNum);
         console.log(typeof someText);
-        console.log(typeof myVar); 
-        console.log('Number = ', 123456); 
-        console.log('String = ', 'IT School "Hillel"'); 
-        console.log('Boolean = ', false); 
+        console.log(typeof myVar);
+
+        /*Отобразите значение каждой переменной и её тип в консоли в следующем виде:"value: <value>; type: <type>" Я так зрозуміла цей пункт
+        console.log('someNum = ', someNum, typeof someNum); 
+        console.log('someText = ', someText, typeof someText); 
+        console.log('myVar = ', myVar, typeof myVar); */
+        //або так
+        console.log('someNum = ', 'value: ', '<', someNum, '>', ';', 'type: ', '<', typeof someNum, '>'); 
+        console.log('someText = ', 'value: ', '<', someText, '>', ';', 'type: ', '<', typeof someText, '>'); 
+        console.log('myVar = ', 'value: ', '<', myVar, '>', ';', 'type: ', '<', typeof myVar, '>'); 
     </script>
 </body>
 </html>
